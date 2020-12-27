@@ -1,0 +1,20 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: weather_asking
+  steps:
+  - intent: weather
+  - action: utter_ask_place
+  - intent: place
+    entities:
+      - place: "Japan"
+  - action: utter_wait
+  - action: action_place
+  - intent: thanks
+  - action: utter_welcome

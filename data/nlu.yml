@@ -1,0 +1,151 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: weather
+  examples: |
+    - i need the weather details
+    - whats the weather
+    - how is the weather
+    - tell me about the weather
+    - please tell me about the weather
+    - hello how is the weather going on
+    - please tell me about the weather details
+    - current weather
+    - current weather details
+    - weather please
+    - weather details pls
+    - i like to know the weather details
+    - i like to know the current weather details
+
+- intent: thanks
+  examples: |
+    - thengu
+    - thanks
+    - wow thanks
+    - <3
+    - I love you
+    - thank you
+    - Anyway thanks
+
+- intent: place
+  examples: |
+    - [Alappuzha](place)
+    - [Kasaragod](place)
+    - [Ernakulam](place)
+    - [Malappuram](place)
+    - [Thrissur](place)
+    - [Idukki](place)
+    - [Kottayam](place)
+    - [Pathanamthitta](place)
+    - [Kollam](place)
+    - [Thiruvananthapuram](place)
+    - [Kozhikode](place)
+    - [Palakkad](place)
+    - [Kannur](place)
+    - [Wayanad](place)
+    - [kollam](place)
+    - [TamilNadu](place)
+    - [Punjab](place)
+    - [Haryana](place)
+    - [Goa](place)
+    - [USA](place)
+    - [Canada](place)
+    - [UK](place)
+    - [Auckland](place)
+    - [Germany](place)
+    - [Thailand](place)
+    - [Munnar](place)
+    - [Sri Lanka](place)
+    - [Nepal](place)
+    - [China](place)
+    - [Bengal](place)
+    - [Persia](place)
+    - [England](place)
+    - [Scotland](place)
+    - [Switzerland](place)
+    - [Hawaii-Ale](place)
+    - [Pakistan](place)
+    - [Afghanistan](place)
+    - [Arctic](place)
+    - [Kolkata](place)
+    - [Mumbai](place)
+    - [Bihar](place)
+    - [Chennai](place)
+    - [Africa](place)
+    - [New Zealand](place)
+    - [Japan](place)
+    - [Korea](place)
+    - [Kingston](place)
+    - [Thailand](place)
+    - [Poland](place)
+    - [Delhi](place)
+    - [Denmark](place)
+    - [Panipat](place)
+    - [Indore](place)
+    - [Peru](place)
+    - [Paris](place)
+    - [Hampi](place)
+    - [Singapore](place)
+    - [Malaysia](place)
+    - [Manglore](place)
+    - [Europe](place)
+    - [East America](place)
+    - [Sikkim](place)
+    - [South America](place)
+    - [Kerala](place)
+    - [Haiti](place)
+    - [Tibet](place)
+    - [Ireland](place)
+    - [Finland](place)
+    - [Australia](place)
+    - [Sweedan](place)
+    - [Maui](place)
+    - [London](place)
+    - [Los Angeles](place)
+    - [New York](place)
+    - [Dubai](place)
+    - [Bahrain](place)
+    - [Saudi Arabia](place)
+    - [Oman](place)
+    - [Qatar](place)
+    - [Tokyo](place)
+    - [Rio](place)
+    - [Russia](place)
+    - [America](place)
+    - [Vietnam](place)
+    - [Iraq](place)
+    - [Tehran](place)
+    - [Hungary](place)
+    - [Tasmania](place)
+    - [Maldives](place)
+    - [Lakshadweep](place)

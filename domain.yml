@@ -1,0 +1,36 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - weather
+  - place
+  - thanks
+entities:
+  - place
+
+slots:
+  place:
+    type: text
+    influence_conversation: true
+
+
+
+actions:
+  - action_place
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  utter_goodbye:
+  - text: "Bye"
+  utter_wait:
+    - text: "Please give me a minute to fetch the details of {place}.."
+  utter_ask_place:
+    - text: "Please enter the Place to Find weather"
+  utter_welcome:
+    - text: "Ok boss!Welcome :)"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
